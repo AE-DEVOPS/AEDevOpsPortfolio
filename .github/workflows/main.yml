@@ -20,4 +20,4 @@ jobs:
         aws-region: us-west-2
 
     - name: Deploy static site to S3 bucket
-      run: aws s3 sync ./public/ s3://devops-portfolio-test --delete
+      run: aws s3 sync ./wow-portfolio-multi-purpose-html5-template/ s3://devops-portfolio-test --delete
